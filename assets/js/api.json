@@ -1,0 +1,121 @@
+{
+    "last": {
+    "nr": 515,
+    "currency": "EUR",
+    "date": {
+    "full": "Die Lottozahlen vom Freitag, den 28.01.2022",
+    "day": 28,
+    "month": 1,
+    "year": 2022,
+    "hour": 21,
+    "minute": 0,
+    "dayOfWeek": "Freitag"
+    },
+    "closingDate": "28.01.2022, 19:00",
+    "lateClosingDate": "28.01.2022, 20:10",
+    "drawingDate": "28.01.2022, 21:00",
+    "numbers": [
+    5,
+    21,
+    23,
+    29,
+    35
+    ],
+    "euroNumbers": [
+    7,
+    9
+    ],
+    "jackpot": "10",
+    "marketingJackpot": "10",
+    "specialMarketingJackpot": "10",
+    "climbedSince": 55,
+    "Winners": 883709,
+    "odds": {
+    "rank0": {
+    "winners": 0,
+    "specialPrize": 0,
+    "prize": 0
+    },
+    "rank1": {
+    "winners": 1,
+    "specialPrize": 0,
+    "prize": 1113461700
+    },
+    "rank2": {
+    "winners": 2,
+    "specialPrize": 0,
+    "prize": 91805980
+    },
+    "rank3": {
+    "winners": 8,
+    "specialPrize": 0,
+    "prize": 8100520
+    },
+    "rank8": {
+    "winners": 33447,
+    "specialPrize": 0,
+    "prize": 2000
+    },
+    "rank9": {
+    "winners": 40979,
+    "specialPrize": 0,
+    "prize": 1580
+    },
+    "rank10": {
+    "winners": 65634,
+    "specialPrize": 0,
+    "prize": 1410
+    },
+    "rank4": {
+    "winners": 51,
+    "specialPrize": 0,
+    "prize": 423550
+    },
+    "rank5": {
+    "winners": 868,
+    "specialPrize": 0,
+    "prize": 22390
+    },
+    "rank6": {
+    "winners": 1497,
+    "specialPrize": 0,
+    "prize": 10100
+    },
+    "rank11": {
+    "winners": 167584,
+    "specialPrize": 0,
+    "prize": 1000
+    },
+    "rank7": {
+    "winners": 2324,
+    "specialPrize": 0,
+    "prize": 5570
+    },
+    "rank12": {
+    "winners": 571314,
+    "specialPrize": 0,
+    "prize": 720
+    }
+    }
+    },
+    "next": {
+    "nr": 516,
+    "currency": "EUR",
+    "date": {
+    "full": "Die Lottozahlen vom Freitag, den 04.02.2022",
+    "day": 4,
+    "month": 2,
+    "year": 2022,
+    "hour": 21,
+    "minute": 0,
+    "dayOfWeek": "Freitag"
+    },
+    "closingDate": "04.02.2022, 19:00",
+    "lateClosingDate": "04.02.2022, 20:10",
+    "drawingDate": "04.02.2022, 21:00",
+    "jackpot": "10",
+    "marketingJackpot": "10",
+    "specialMarketingJackpot": "10",
+    "climbedSince": 57
+    }
+    }
