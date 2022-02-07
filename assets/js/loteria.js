@@ -6,6 +6,9 @@ const d = document,
 let dato,odds ={},
    dateDrawin = '';
 
+//const url = 'http://www.lottoland.com/api/drawings/euroJackpot';
+const url = 'http://127.0.0.1:5500/assets/js/api.json';
+
 const match = ['5 numbers + 2 Euronumbers', '5 numbers + 1 Euronumbers','5 numbers + 0 Euronumbers', '4 numbers + 2 Euronumbers',
                '4 numbers + 1 Euronumbers', '4 numbers + 0 Euronumbers','3 numbers + 2 Euronumbers', '2 numbers + 2 Euronumbers',
                '3 numbers + 1 Euronumbers', '3 numbers + 0 Euronumbers','1 numbers + 2 Euronumbers', '2 numbers + 1 Euronumbers'];
@@ -55,7 +58,7 @@ d.addEventListener("DOMContentLoaded",(e) => {
             // *****************  CON AXIOS *****************
 
         //   await axios.get('http://www.lottoland.com/api/drawings/euroJackpot',params, config)              
-        await axios.get('http://127.0.0.1:5500/assets/js/api.json')
+        await axios.get(url)
             .then(response=>{
             dato = response.data;
              })
@@ -103,21 +106,25 @@ d.addEventListener("DOMContentLoaded",(e) => {
     })();
     
 
-
     d.addEventListener("click", (e) =>{
         if(e.target.matches('#results') ){
+            d.getElementById('results').disabled = true;
             upNumberTime('#results', '.drawinDate', '.numbersWin', numbers, euroNumbers, dateDrawin);
     //        const grillDrawin = fillTable(odds);
             paintDrawin(fillTable(odds),'tBodyDrawin');
                 
+        }
+
+        if(e.target.matches('#refresh') ){
+            location.reload();
         }
     });
 
 
 
     function upNumberTime(btn, clsTime, clsNumbers, array1, array2, dateDrawin){
-
-        d.querySelector(clsTime).innerHTML += dateDrawin;
+     
+        d.querySelector(clsTime).innerHTML = `EuroJackpot Results for ${dateDrawin}`;
 
         let len = array1.length;
         let firts = 1;

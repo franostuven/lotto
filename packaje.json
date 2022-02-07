@@ -1,0 +1,17 @@
+{
+    "name": "lotto",
+    "version": "1.0.1",
+    "description": "Web page for the win numbers of drawin",
+    "scripts": {
+        "ES6-to-ES5": "npx babel assets/js --watch --presets babel-preset-env --out-dir dist"
+    },
+    "author": "FSC",
+    "license": "",
+    "presets": [
+        "env"
+    ],
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.6.1"
+    }
+}

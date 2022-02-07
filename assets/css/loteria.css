@@ -161,30 +161,19 @@ body {
     flex-direction: row;
 }
 
-.margBott {
-    margin-top: 16px;
-}
 
 .hidden{
     visibility: hidden;
     opacity: 0;
 }
 
-
+ 
 .aside-1 {
-    margin-bottom: 2rem;
-    padding: 2px;
-    border: 1px solid rgb(5, 5, 5);
-
+    border: thin solid rgb(5, 5, 5);
 }
   
 .aside-2 {
-    padding: 4px;
-    border: 1px solid rgb(5, 5, 5);
-
-    border-right-color: 5px solid var(--green-450);
-
-
+     border: thin solid rgb(5, 5, 5);
 }
 
 footer {
@@ -199,6 +188,21 @@ tr:nth-child(even) {
     background-color: #dddddd;
 }
 
+.numbersWin {
+    font-weight: bolder;
+    font-size: larger;
+    color:var(--blue-900) ;
+    background-color:var(--green-400);
+    position: relative;
+    animation-name: numberRun;
+    animation-duration: 6s;
+    overflow:hidden;
+}
+    
+@keyframes numberRun {
+    from {right: -1200px;}
+    to {right: 0px;}
+}
 /* @media (min-width: 800px) {
     .header    { flex: 3 0px; }
     .aside-1 { order: 1; } 
